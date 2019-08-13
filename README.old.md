@@ -28,15 +28,15 @@ In this project you'll build an app that will keep track of memebers of a team. 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [X] Add your team lead as a reviewer on the pull-request
+- [X] Your team lead will count the project as complete by merging the branch back into master.
+- [X] Do your magic!
 
 ## Minimum Viable Product
 
-- [ ] Render a list of team members from state
-- [ ] Build a form to add a new member to the list of members
+- [X] Render a list of team members from state
+- [X] Build a form to add a new member to the list of members
 
 ### STEP 1 - Setup your state
 
@@ -46,6 +46,7 @@ Follow these steps for completing your project.
 
 - Render your list of team members
 
+[X]
 ### STEP 2 - Build your form
 
 - In `Form.js` build out your markup
@@ -54,7 +55,7 @@ Follow these steps for completing your project.
 - Render your `Form` component in `App` and pass a setter method (the `set_____` method from your team members state in `App`) down to it so you can add team members to your state.
 
 Now you are finished with MVP! Move on to the stretch goals at the bottom. The first is to add the functionality to edit members. As this is a very complicated process, steps have been included here to help you through that.
-
+[X]
 ### STEP 3 - Add the edit functionality (STRETCH)
 
 Next we're going to reuse the `Form` component to edit team members
