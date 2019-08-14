@@ -13,16 +13,15 @@ export default function TeamForm(props) {
   const handleSubmit = event => {
     event.preventDefault();
     var newAgent = {
-        ...txt,
-        id: Date.now()
+      ...txt,
+      id: Date.now()
     };
     console.log(newAgent);
     props.addMember(newAgent);
-    // setTxt({ "agent-name": "", "agent-role": "", "agent-home": "" });
-    
+    setTxt({ "agent-name": "", "agent-role": "", "agent-home": "" });
   };
   return (
-    <form onSubmit={event => handleSubmit(event)}>
+    <form className="team-form" onSubmit={event => handleSubmit(event)}>
       <label htmlFor="member-name" hidden />
       <input
         type="text"

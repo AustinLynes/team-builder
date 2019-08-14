@@ -15,10 +15,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
         <TeamForm addMember={addMember}/>
         <TeamList agentList={agents}/>
-      </header>
     </div>
   );
 }
